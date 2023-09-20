@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  color: #4D5B9E;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button {
+  color: white;
+  background: #4D5B9E;
+  border: none;
+  cursor: pointer;
+}
+/* start button */
+.start {
+  padding: 0 55px;
+  height: 52px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500; 
+}
+/* in game button */
+.in-game {
+  padding: 0 30px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+/* game font color */
+.answer, .selected, .correct, .incorrect {
+  color: #4D5B9E;
+}
+
+/* answer displayed unselected */
+.answer {
+  height: 20px;
+  padding: 5px 15px;
+  border: 1px solid #4D5B9E;
+  background: white;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  
+}
+
+/* answer selected, correct, and incorrect with no border */
+.selected, .correct, .incorrect {
+  border: none;
+} 
+
+/* answer displayed selected */
+
+.selected {
+  background: #D6DBF5;
+}
+/* answer correct */
+.correct {
+  
+  background-color: #94D7A2;
+}
+/* answer incorrect */
+.incorrect {
+  background: #F8BCBC;
+  
+}
+
+
+
+
