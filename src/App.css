@@ -11,25 +11,21 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
 #root {
-  /*  for start button
-  display: flex; 
-  justify-content: center; */ 
+  
+  max-height: 100vh;
   max-width: 100vw;
   margin: 0 auto;
   text-align: center;
   padding: 40px 75px;
 }
 
-/* 
- for start button
-.intro-page {
-  align-self: center;
-} */
+
 
 
 .intro-page > h1 {
@@ -76,6 +72,12 @@ body {
   display: inline;
 }
 
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 /*
   utitlity styling 
 */
@@ -109,7 +111,7 @@ body {
 
 /* answer displayed unselected */
 .answer {
-  height: 20px;
+  /* height: 20px; */
   padding: 5px 15px;
   border: 1px solid #4D5B9E;
   background: white;
@@ -141,6 +143,8 @@ body {
   
 }
 
-
+#game-button {
+  margin-left: 10px;
+}
 
 
